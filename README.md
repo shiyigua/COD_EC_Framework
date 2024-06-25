@@ -25,7 +25,7 @@ HAL-Template
   ├───MDK-ARM
   ├───Middlewares
   ├───Third_Party
-  └───USB_DEVICE
+  └───USB_DEVICEqdujilwqahdkluiahdqwasduiashdsuiawdaws
 ```
 
 ## 模块功能说明
