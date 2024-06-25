@@ -1,0 +1,9 @@
+hal-hero\bmi088.o: ..\Components\Device\Src\bmi088.c
+hal-hero\bmi088.o: ../Components/Device/Inc/bmi088.h
+hal-hero\bmi088.o: ../Application/Tasks/Inc/config.h
+hal-hero\bmi088.o: ../Components/Device/Inc/bmi088_reg.h
+hal-hero\bmi088.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hal-hero\bmi088.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+hal-hero\bmi088.o: ../Bsp/Inc/bsp_gpio.h
+hal-hero\bmi088.o: ../Bsp/Inc/bsp_spi.h
+hal-hero\bmi088.o: ../Bsp/Inc/bsp_tick.h

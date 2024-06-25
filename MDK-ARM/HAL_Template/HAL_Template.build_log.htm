@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Jin, 1, LIC=X96CK-ZBKJ1-NN5AF-6BM4D-DUAX3-SA4MA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+<<<<<<< HEAD
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+=======
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+>>>>>>> 667aae5 (HERO)
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+<<<<<<< HEAD
+C:\EC\WorkSpace\HAL_Template\MDK-ARM\HAL_Template.uvprojx
+Project File Date:  05/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+=======
+D:\Git_Code\HAL_HERO\MDK-ARM\HAL_Template.uvprojx
+Project File Date:  05/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+>>>>>>> 667aae5 (HERO)
+Build target 'HAL_Template'
+compiling bsp_can.c...
+..\Bsp\Src\bsp_can.c(124): warning:  #223-D: function "DJI_Motor_Info_Update" declared implicitly
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[PITCH]);
+..\Bsp\Src\bsp_can.c(124): error:  #20: identifier "DJI_Motor" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[PITCH]);
+..\Bsp\Src\bsp_can.c(124): error:  #20: identifier "PITCH" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[PITCH]);
+..\Bsp\Src\bsp_can.c(125): error:  #20: identifier "SHOOTL" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[SHOOTL]);
+..\Bsp\Src\bsp_can.c(126): error:  #20: identifier "SHOOTR" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[SHOOTR]);
+..\Bsp\Src\bsp_can.c(130): warning:  #223-D: function "DJI_Motor_Info_Update" declared implicitly
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[YAW]);
+..\Bsp\Src\bsp_can.c(130): error:  #20: identifier "DJI_Motor" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[YAW]);
+..\Bsp\Src\bsp_can.c(130): error:  #20: identifier "YAW" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[YAW]);
+..\Bsp\Src\bsp_can.c(131): error:  #20: identifier "TRIGGER" is undefined
+      DJI_Motor_Info_Update(StdId, data, &DJI_Motor[TRIGGER]);
+..\Bsp\Src\bsp_can.c: 2 warnings, 7 errors
+compiling motor.c...
+compiling bsp_mcu.c...
+compiling Gimbal_Task.c...
+".\HAL_Template\HAL_Template.axf" - 7 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.0.pack
+                Keil.STM32F4xx_DFP.2.17.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/Keil_v5/Packs/Keil/STM32F4xx_DFP/2.17.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+<<<<<<< HEAD
+Build Time Elapsed:  00:00:00
+=======
+Target not created.
+Build Time Elapsed:  00:00:07
+>>>>>>> 667aae5 (HERO)
+</pre>
+</body>
+</html>

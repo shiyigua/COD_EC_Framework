@@ -1,0 +1,15 @@
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+hal-hero\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+hal-hero\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hal-hero\event_groups.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hal-hero\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+hal-hero\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

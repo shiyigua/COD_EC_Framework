@@ -1,0 +1,15 @@
+hal-hero\api_quaternion.o: ..\Application\API\Src\api_quaternion.c
+hal-hero\api_quaternion.o: ../Application/API/Inc/api_quaternion.h
+hal-hero\api_quaternion.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hal-hero\api_quaternion.o: ../Components/Algorithm/Inc/kalman.h
+hal-hero\api_quaternion.o: ../Middlewares/ST/ARM/DSP/Inc/arm_math.h
+hal-hero\api_quaternion.o: ../Drivers/CMSIS/Include/core_cm4.h
+hal-hero\api_quaternion.o: ../Drivers/CMSIS/Include/cmsis_version.h
+hal-hero\api_quaternion.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+hal-hero\api_quaternion.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+hal-hero\api_quaternion.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+hal-hero\api_quaternion.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+hal-hero\api_quaternion.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+hal-hero\api_quaternion.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+hal-hero\api_quaternion.o: ../Components/Controller/Inc/pid.h
+hal-hero\api_quaternion.o: ../Application/Tasks/Inc/config.h

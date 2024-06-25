@@ -1,0 +1,12 @@
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+hal-hero\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+hal-hero\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+hal-hero\list.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+hal-hero\list.o: ../Core/Inc/FreeRTOSConfig.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+hal-hero\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
