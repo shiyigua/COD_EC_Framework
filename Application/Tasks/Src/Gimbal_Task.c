@@ -48,7 +48,7 @@ uint8_t Gimbal_TxFrameData[8];
 
 int vision_flag = 0;
 int fire_flag = 0; 
-float pit_motor_angle;//½«pitÖá±àÂëÆ÷Öµ×ª»¯ÎªpitÖáÊÀ½ç½Ç
+float pit_motor_angle;//ï¿½ï¿½pitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ×ªï¿½ï¿½Îªpitï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 int Vision_Info_mode = 0;
 
 /* Private function prototypes -----------------------------------------------*/
@@ -203,14 +203,14 @@ static void Gimbal_Mode_Update(void)
 	 currentTime = xTaskGetTickCount();
 
 	 if(currentTime - remote_ctrl.online_cnt > 50)
-	 {//Á¬½Ó³¬Ê±
+	 {//ï¿½ï¿½ï¿½Ó³ï¿½Ê±
       Gimbal_Info.status = OFF;
       Shoot_Info.mode = SHOOT_OFF;
       chassis.state_Setup(OFF);
 		  chassis.mode_Setup(INVA);
    }
 
-	if(chassis.ctrl == 2)//¼üÅÌ
+	if(chassis.ctrl == 2)//ï¿½ï¿½ï¿½ï¿½
 	{
 		Gimbal_Info.status = ON;
 //		Shoot_Info.mode = SHOOT_ON;
@@ -218,12 +218,12 @@ static void Gimbal_Mode_Update(void)
 		chassis.mode_Setup(FOLO);
 	
 	}
-	else if(chassis.ctrl == 1)//Ò£¿Ø
+	else if(chassis.ctrl == 1)//Ò£ï¿½ï¿½
 	{
-		switch(remote_ctrl.rc.s[0])//ÓÒ²¦¸Ë 1£¬3£¬2
+		switch(remote_ctrl.rc.s[0])//ï¿½Ò²ï¿½ï¿½ï¿½ 1ï¿½ï¿½3ï¿½ï¿½2
 		{
 			case 1:
-				switch(remote_ctrl.rc.s[1])//×ó²¦¸Ë 2£¬3£¬1
+				switch(remote_ctrl.rc.s[1])//ï¿½ó²¦¸ï¿½ 2ï¿½ï¿½3ï¿½ï¿½1
 				{
 					case 2:
 						vision_flag = 0;
